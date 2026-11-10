@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Habiba Mohamed | Full-stack Developer</title>
+<meta name="description" content="Portfolio of Habiba Mohamed, a Full-stack JavaScript developer building secure, scalable applications with Node.js, TypeScript, and MongoDB.">
+<!-- Link preview tags -->
+<meta property="og:type" content="website">
+<meta property="og:title" content="Habiba Mohamed | Full-stack Developer">
+<meta property="og:description" content="I build secure, scalable APIs with Node.js, TypeScript, and MongoDB. See my projects and get in touch.">
+<meta property="og:image" content="https://myportfolio-delta-one-41.vercel.app/assets/og-image.png">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>💻</text></svg>">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:wght@500;700;800&family=Instrument+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<nav class="nav" aria-label="Main">
+  <div class="nav-inner">
+    <a class="logo" href="#home">Habiba</a>
+    <button class="menu-btn" id="menuBtn" type="button" aria-expanded="false" aria-controls="links">Menu</button>
+    <ul class="links" id="links">
+      <li><a href="#home" class="active">Home</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#services">Services</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </div>
+</nav>
+
+<header class="hero" id="home">
+  <p class="hello">Hello I'm</p>
+  <h1>Habiba <span class="typed-wrap"><span id="typed">Mohamed</span><span class="cursor" aria-hidden="true"></span></span></h1>
+  <p class="role">Full-stack Developer</p>
+  <p class="tagline">I build secure, scalable APIs with Node.js, TypeScript, and MongoDB.</p>
+  <div class="btns">
+    <a class="btn primary" href="#projects">View projects</a>
+    <a class="btn ghost" href="assets/Habiba_Mohamed_Ahmed_Fullstack.pdf" download>Download CV</a>
+  </div>
+</header>
+
+<main>
+  <section id="about">
+    <div class="wrap">
+      <h2>About Me</h2>
+      <p class="lead">I'm a Full Stack JavaScript Developer who builds and deploys web applications with Node.js, Express.js, TypeScript, MongoDB, Redis, and AWS. I design backends with authentication, caching, file storage, and secure APIs, and I write code that is easy to maintain. Before moving into software, I worked in marketing and customer-facing roles, so I'm comfortable talking with clients, understanding what they need, and explaining technical choices in plain language.</p>
+      <div class="facts">
+        <div class="fact"><strong>Based in</strong><span>Egypt</span></div>
+        <div class="fact"><strong>Languages</strong><span>Arabic<br>English (B2)</span></div>
+        <div class="fact"><strong>Certificate</strong><span>Backend Development Diploma, Route Academy, 2026</span></div>
+        <div class="fact"><strong>Open to</strong><span>Full-time roles <br> freelance projects</span></div>
+      </div>
+      <div class="btns">
+        <a class="btn primary" href="assets/Habiba_Mohamed_Ahmed_Fullstack.pdf" download>Download my CV</a>
+        <button class="btn ghost" id="hireBtn" type="button">Hire me</button>
+      </div>
+    </div>
+  </section>
+
+  <section id="projects">
+    <div class="wrap">
+      <h2>Projects</h2>
+      <div class="grid projects">
+        <article class="card project" data-project="social">
+          <img class="shot" src="assets/project-social.webp" alt="Login screen of the Social Media App" loading="lazy">
+          <h3>Social Media App</h3>
+          <p>A modular backend with REST and GraphQL APIs, real-time chat, and push notifications.</p>
+          <div class="tags"><span>Node.js</span><span>TypeScript</span><span>MongoDB</span><span class="plus">+7</span></div>
+          <button class="more" type="button" data-open="social" aria-haspopup="dialog" aria-label="See details: Social Media App">See details <span aria-hidden="true">&rarr;</span></button>
+        </article>
+        <article class="card project" data-project="saraha">
+          <img class="shot" src="assets/project-saraha.webp" alt="README of the Saraha App repository" loading="lazy">
+          <h3>Saraha Clone</h3>
+          <p>An anonymous messaging API with secure authentication, OTP verification, and image uploads.</p>
+          <div class="tags"><span>Node.js</span><span>Express</span><span>MongoDB</span><span class="plus">+3</span></div>
+          <button class="more" type="button" data-open="saraha" aria-haspopup="dialog" aria-label="See details: Saraha Clone">See details <span aria-hidden="true">&rarr;</span></button>
+        </article>
+        <article class="card project" data-project="bookmark">
+          <img class="shot" src="assets/project-bookmark.webp" alt="Bookmark app screen" loading="lazy">
+          <h3>Bookmark</h3>
+          <p>A responsive bookmark manager with full create, read, update, and delete, saved in the browser.</p>
+          <div class="tags"><span>HTML</span><span>CSS</span><span>JavaScript</span><span class="plus">+1</span></div>
+          <button class="more" type="button" data-open="bookmark" aria-haspopup="dialog" aria-label="See details: Bookmark">See details <span aria-hidden="true">&rarr;</span></button>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <section id="skills">
+    <div class="wrap">
+      <h2>Skills</h2>
+      <p class="legend">Filled tags are skills I've used in my projects. Dashed tags are ones I'm still growing in.</p>
+      <div class="grid skills">
+        <div class="card"><h3>Languages</h3><div class="tags"><span>JavaScript</span><span>TypeScript</span><span class="fam">Python</span><span class="fam">C++</span></div></div>
+        <div class="card"><h3>Backend</h3><div class="tags"><span>Node.js</span><span>Express.js</span><span>REST APIs</span><span>GraphQL</span><span>Socket.IO</span></div></div>
+        <div class="card"><h3>Authentication and Security</h3><div class="tags"><span>JWT</span><span>Refresh Token Rotation</span><span>Google OAuth</span><span>RBAC</span><span>Helmet</span><span>CORS</span><span>Rate Limiting</span><span>Joi</span><span>Zod</span></div></div>
+        <div class="card"><h3>Databases</h3><div class="tags"><span>MongoDB</span><span>Redis</span><span>Database Design</span><span>Data Modeling</span><span class="fam">SQL</span><span class="fam">MySQL</span></div></div>
+        <div class="card"><h3>Cloud</h3><div class="tags"><span>AWS S3</span><span>Firebase Cloud Messaging</span><span class="fam">AWS EC2</span></div></div>
+        <div class="card"><h3>Tools</h3><div class="tags"><span>Git</span><span>GitHub</span><span>Postman</span><span>Multer</span></div></div>
+        <div class="card"><h3>Frontend</h3><div class="tags"><span>HTML5</span><span>CSS3</span><span class="fam">React.js</span><span class="fam">React Query</span></div></div>
+        <div class="card"><h3>Methodologies</h3><div class="tags"><span class="fam">Agile</span></div></div>
+      </div>
+    </div>
+  </section>
+
+  <section id="services">
+    <div class="wrap">
+      <h2>What I can build for you</h2>
+      <div class="grid services">
+        <div class="card"><h3>REST and GraphQL APIs</h3><p>Well-structured, documented APIs with request validation, built with Node.js, Express, and TypeScript.</p></div>
+        <div class="card"><h3>Authentication and security</h3><p>Login, refresh tokens, Google sign-in, role-based access, and protection against common attacks.</p></div>
+        <div class="card"><h3>Real-time features</h3><p>Live chat and push notifications with Socket.IO and Firebase Cloud Messaging.</p></div>
+        <div class="card"><h3>Files and cloud storage</h3><p>Secure file uploads stored on AWS S3, with Redis caching to keep things fast.</p></div>
+        <div class="card">
+          <h3>Database design</h3>
+          <p>Clean MongoDB schemas and relationships designed around your data, so your app stays organized and easy to grow.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact">
+    <div class="wrap">
+      <h2>Let's work together</h2>
+      <p class="lead">Whether it's a full-time role, a freelance project, or a collaboration, I'd love to hear about it. Send me a message and I'll reply soon.</p>
+      <div class="btns">
+        <a class="btn primary" href="mailto:habiba5010@gmail.com">Email me</a>
+        <a class="btn ghost" href="https://github.com/Habiba-50" target="_blank" rel="noopener">GitHub</a>
+        <a class="btn ghost" href="https://linkedin.com/in/habiba-mohamed-hm" target="_blank" rel="noopener">LinkedIn</a>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer>&copy; 2026 Habiba Mohamed</footer>
+
+<dialog id="hireDialog" aria-labelledby="hireTitle">
+  <button class="close" id="closeDlg" type="button" aria-label="Close">&times;</button>
+  <h2 id="hireTitle">Hire me</h2>
+  <p class="dlg-note">Tell me about your project and I'll get back to you by email.</p>
+  <form id="hireForm">
+    <input type="hidden" name="_subject" value="New Hire me request from my portfolio">
+    <input type="hidden" name="_captcha" value="false">
+    <input type="hidden" name="_template" value="table">
+    <input type="text" name="_honey" class="hp" tabindex="-1" autocomplete="off" aria-hidden="true">
+    <label>Your name<input type="text" name="name" required autocomplete="name"></label>
+    <label>Your email<input type="email" name="email" required autocomplete="email"></label>
+    <label>Project type
+      <select name="project_type" required>
+        <option value="" disabled selected>Choose one</option>
+        <option>Backend / API</option>
+        <option>Full-stack web app</option>
+        <option>Frontend website</option>
+        <option>Full-time or part-time role</option>
+        <option>Something else</option>
+      </select>
+    </label>
+    <label>Message<textarea name="message" rows="5" required></textarea></label>
+    <button class="btn primary" id="submitBtn" type="submit">Submit</button>
+    <p id="formStatus" role="status" aria-live="polite"></p>
+  </form>
+</dialog>
+
+<dialog id="projectDialog" class="proj-dlg" aria-labelledby="projTitle">
+  <button class="close" id="closeProj" type="button" aria-label="Close">&times;</button>
+  <div id="projBody"></div>
+</dialog>
+
+<template id="tpl-social">
+  <video class="demo" controls preload="none" playsinline poster="assets/poster-social.webp"><source src="assets/Social_Media_Demo.mp4" type="video/mp4"></video>
+  <h2 id="projTitle">Social Media App</h2>
+  <h4>Overview</h4>
+  <p>A modular social media backend with REST and GraphQL APIs for users, posts, profiles, and file uploads.</p>
+  <h4>Security</h4>
+  <p>JWT with refresh token rotation, Google OAuth, and role-based access control.</p>
+  <h4>Real-time and speed</h4>
+  <p>Socket.IO for real-time chat, Firebase Cloud Messaging for push notifications, and Redis caching for speed.</p>
+  <h4>Tech stack</h4>
+  <div class="tags"><span>Node.js</span><span>TypeScript</span><span>Express 5</span><span>MongoDB</span><span>Redis</span><span>AWS S3</span><span>GraphQL</span><span>Socket.IO</span><span>Firebase Cloud Messaging</span><span>Zod</span></div>
+  <div class="btns">
+    <a class="btn primary" href="https://documenter.getpostman.com/view/40942955/2sBYB4K6GW" target="_blank" rel="noopener">API documentation</a>
+    <a class="btn ghost" href="https://github.com/Habiba-50/Social-Media-App" target="_blank" rel="noopener">Source code</a>
+  </div>
+</template>
+
+<template id="tpl-saraha">
+  <video class="demo" controls preload="none" playsinline poster="assets/poster-saraha.webp"><source src="assets/Saraha_Demo.mp4" type="video/mp4"></video>
+  <h2 id="projTitle">Saraha Clone</h2>
+  <h4>Overview</h4>
+  <p>An anonymous messaging API where anyone with a profile link can send a text message or up to two images without revealing who they are.</p>
+  <h4>Authentication</h4>
+  <p>JWT authentication with refresh token rotation, Google OAuth, OTP email verification, and role-based access control.</p>
+  <h4>Protection</h4>
+  <p>Helmet, CORS, rate limiting, and Joi validation.</p>
+  <h4>Tech stack</h4>
+  <div class="tags"><span>Node.js</span><span>Express</span><span>MongoDB</span><span>Redis</span><span>Multer</span><span>Joi</span></div>
+  <div class="btns">
+    <a class="btn primary" href="https://documenter.getpostman.com/view/40942955/2sBXwsMq9h" target="_blank" rel="noopener">API documentation</a>
+    <a class="btn ghost" href="https://github.com/Habiba-50/Route-SarahaApp" target="_blank" rel="noopener">Source code</a>
+  </div>
+</template>
+
+<template id="tpl-bookmark">
+  <img class="demo" src="assets/project-bookmark.webp" alt="Bookmark app screen">
+  <h2 id="projTitle">Bookmark</h2>
+  <h4>Overview</h4>
+  <p>A responsive bookmark manager built with HTML, CSS, and JavaScript.</p>
+  <h4>Features</h4>
+  <p>Create, view, update, and delete bookmarks with input validation. Your data stays saved in Local Storage.</p>
+  <h4>Tech stack</h4>
+  <div class="tags"><span>HTML</span><span>CSS</span><span>JavaScript</span><span>Local Storage</span></div>
+  <div class="btns">
+    <!-- Replace with the exact repository link -->
+    <a class="btn ghost" href="https://github.com/Habiba-50?tab=repositories" target="_blank" rel="noopener">Source code</a>
+  </div>
+</template>
+
+<script src="js/script.js" defer></script>
+</body>
+</html>
